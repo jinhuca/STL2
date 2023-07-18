@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+/C05/.vs/C05
+/C05/P0062/x64/Debug
+/C05/P0068/x64/Debug
+/C05/P0077/x64/Debug
+/.vs
+/C03/.vs/C03
+/C03/P013/x64/Debug
+/C03/x64/Debug
+/C05/P0080/x64/Debug
+/C05/P0081/x64/Debug
+/C05/P0099/x64/Debug
+/C05/P0100/x64/Debug
+/C05/x64/Debug
+*.filters
