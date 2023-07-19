@@ -18,7 +18,22 @@ void f()
   std::cout << "final y: " << y << std::endl;
 }
 
+void g()
+{
+  int id = 0;
+  auto f = [id]() mutable
+  {
+    std::cout << "id: " << id << std::endl;
+    ++id;
+  };
+  id = 42;
+  f();
+  f();
+  f();
+  std::cout << id << std::endl;
+}
 int main()
 {
-  f();
+  //f();
+  g();
 }
